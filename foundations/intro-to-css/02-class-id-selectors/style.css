@@ -1,17 +1,21 @@
 /* Add CSS Styling */
 
 .bandit {
-
+    background-color: rgb(255, 192, 203);
+    font-family: Verdana, DejaVu Sans, sans-serif;
 }
 
 #mage {
-
+    color: rgb(0, 0, 255);
+    font-size: 36px;
 }
 
 #hero {
-
+    font-size: 24px;
 }
 
 #archer {
-    
+    background-color: rgb(144, 238, 144);
+    font-size: 24px;
+    font-weight: bold;
 }
