@@ -19,6 +19,11 @@
   background-color: rgb(99, 97, 97);
 
   display: none;
+  transform-origin: top;
+    animation-duration: 1s;
+  animation-name: drop-down;
+  animation-iteration-count: 1;
+
 }
 
 ul.dropdown-menu li:hover {
@@ -29,4 +34,16 @@ ul.dropdown-menu li:hover {
   display: block;
 }
 
+@keyframes drop-down {
+  0% {
+    transform: scaleY(0)
+  }
 
+  66% {
+    transform: scaleY(1.15)
+  }
+
+  100% {
+    transform: scaleY(1)
+  }
+}
